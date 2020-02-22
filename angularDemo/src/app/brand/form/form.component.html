@@ -1,9 +1,14 @@
 <div class="row">
-    <h2>Add new Brand</h2>
-    <form #f="ngForm">
-      <div class="row">
-          <!-- <input type="text" name="name" placeholder="Enter brand name"
-          [(ngModel)]="band.name" required> -->
+  <h2>Add new Brand</h2>
+  <form #f="ngForm">
+    <div class="row">
+      <div class="col-md-12">
+        <input type="text" name="brand_name" placeholder="Enter brand name" [(ngModel)]="band.brand_name" required>
       </div>
-    </form>
+      <div class="col-12 text-right mr-90">
+          <button type="submit" class="btn dento-btn mr-15" (click)="onCancel()">Cancel</button>
+          <button type="submit" class="btn dento-btn mr-15" (click)="onCase(f)">Add Case</button>
+        </div>
+    </div>
+  </form>
 </div>

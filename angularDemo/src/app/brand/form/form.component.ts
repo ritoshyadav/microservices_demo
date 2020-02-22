@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormComponent implements OnInit {
 brand:{
-  name:""
+  brand_name:""
 }
   constructor() { }
 

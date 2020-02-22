@@ -6,6 +6,7 @@ import { FormComponent } from './form/form.component';
 import { ListComponent } from './list/list.component';
 import {InputTextModule} from 'primeng/inputtext';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {ButtonModule} from 'primeng/button';
 
 @NgModule({
   declarations: [FormComponent, ListComponent],
@@ -14,7 +15,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BrandRoutingModule,
     InputTextModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ButtonModule
   ]
 })
 export class BrandModule { }
