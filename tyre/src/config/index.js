@@ -1,4 +1,4 @@
-let DB_URI = "mongodb://localhost:27017/microservices";
+let DB_URI = "mongodb://localhost:27017/microservices1";
 
 if (process.env.MONGO_DB_URL) {
     DB_URI = process.env.MONGO_DB_URL;

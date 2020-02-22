@@ -11,7 +11,7 @@ mongoose.connect(DB_URI, { useNewUrlParser: true }, (err) => {
 });
 // mongoose.connect(DB_URL);
 
-app.listen(3000, () => {
-    console.log("Running on port 3000");
+app.listen(3001, () => {
+    console.log("Running on port 3001");
     console.log("----------------------");
 });
